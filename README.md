@@ -15,3 +15,10 @@ The Web design community includes various opinions about use of a reset styleshe
 
 Resource: [The Pros and Cons of CSS Resets](http://www.vanseodesign.com/css/css-resets-pros-cons/)
 
+##universal selector
+
+The Web design community also expresses various opinions about use of the universal selector (*) in CSS. I used the universal selector in the stylesheet css/boxsizing.css in this collection.
+
+Resource: [Universal Selector ‘*’ Reset](http://www.cssreset.com/scripts/universal-selector-css-reset/)
+
+
