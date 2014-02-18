@@ -9,6 +9,8 @@ Web pages by beginners often look horribly different in different Web browsers. 
 
 Resource: [* { Box-sizing: Border-box } FTW](http://www.paulirish.com/2012/box-sizing-border-box-ftw/)
 
+Resource: [The CSS Box Model](http://css-tricks.com/the-css-box-model/) This is a pretty good illustrated explanation of the box model, which is at the root of the box-sizing issue. 
+
 ##reset stylesheet
 
 The Web design community includes various opinions about use of a reset stylesheet for CSS.
