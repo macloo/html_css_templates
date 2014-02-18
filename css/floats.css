@@ -1,0 +1,62 @@
+/* four main areas of the page */
+
+#header {
+	background: #cfc;
+	}
+
+#footer {
+	clear: both;
+	background: #ffc;
+	padding: 20px 0;
+	}
+
+.left {
+	background: #cff;
+	width: 60%;
+	float: left;
+	padding-top: 20px;
+	/* try un-commenting the line below - see what happens */
+	/* padding-bottom: 150px;  */
+	}
+
+.right {
+	background: #fcf;
+	width: 40%;
+	float: right;
+	padding-bottom: 30px;
+	}
+
+/* text styles unique to this page -
+   overriding previous stylesheet
+   */
+
+h1 {
+	padding-left: 20px;
+	}
+
+h2 {
+	font-family: Cambria, Georgia, serif;
+	font-size: 150%;
+	font-weight: normal;
+	padding: 20px 0 10px 20px;
+	}
+
+p {
+	background: transparent;
+	}
+
+/* definition list styles for sidebar */
+
+dl {
+	padding: 0 20px;
+	}
+dd {
+	font-size: .9em;
+	}
+dt {
+	font-size: .95em;
+	font-weight: bold;
+	padding-top: 10px;
+	line-height: 1.5em;
+	}
+
