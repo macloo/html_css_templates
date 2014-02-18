@@ -3,6 +3,8 @@ HTML and CSS templates
 
 Extremely simple templates for starting a small project.
 
+[Checklist for HTML and CSS knowledge](http://bit.ly/html_css_checklist): Read and check whether you understand each of these essentials.
+
 ##box-sizing
 
 Web pages by beginners often look horribly different in different Web browsers. Often this can be traced back to the ways in which margin and padding are specified in the CSS. Some Web browsers interpret some aspects of margin and padding differently from other browsers.
