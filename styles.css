@@ -14,10 +14,9 @@ body {
 
 /* links */
 
-a:focus{
+a:focus {
 	outline: 2px solid #069;
 	}
-
 a:link, a: active, a:visited {
 	color: #00c;
 	text-decoration: underline;

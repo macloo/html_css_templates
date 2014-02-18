@@ -6,7 +6,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Tahoma, Arial, sans-serif;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 100%;
 	color: #000;
 	background: #fff;
@@ -33,10 +33,9 @@ p {
 
 /* links */
 
-a:focus{
+a:focus {
 	outline: 2px solid #069;
 	}
-
 a:link, a: active, a:visited {
 	color: #00c;
 	text-decoration: underline;
