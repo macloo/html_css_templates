@@ -25,4 +25,7 @@ Resource: [Universal Selector ‘*’ Reset](http://www.cssreset.com/scripts/uni
 
 ##floats
 
+In CSS, float declarations are commonly used to place elements (such as images, or sidebars) on a page. They pose challenges for beginners, in part because usually they must be "cleared" after use.
+
+Resource: [float](https://developer.mozilla.org/en-US/docs/Web/CSS/float) -- a great reference at Mozilla Developer Network
 
