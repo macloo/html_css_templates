@@ -13,7 +13,7 @@
 	}
 
 body {
-	font-family: Tahoma, Arial, sans-serif;
+	font-family: Verdana, Arial, sans-serif;
 	font-size: 100%;
 	color: #000;
 	background: #fff;
@@ -28,6 +28,7 @@ body {
 h1 {
 	font-family: Cambria, Georgia, serif;
 	font-size: 200%;
+	font-weight: normal;
 	padding: 20px 0;
 	}
 
