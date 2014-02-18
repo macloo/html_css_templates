@@ -27,5 +27,7 @@ Resource: [Universal Selector ‘*’ Reset](http://www.cssreset.com/scripts/uni
 
 In CSS, float declarations are commonly used to place elements (such as images, or sidebars) on a page. They pose challenges for beginners, in part because usually they must be "cleared" after use.
 
+Problems with floats also arise because of the box-sizing issue (see above): when there is not enough space for a floated item, elements "fall down" below instead of floating side by side, as you intended. The error with insufficient space can be caused by the width of margins and padding -- the sum of all the widths is greater than you calculated. This can also occur as part of inheritance (the "cascade" of Cascading Style Sheets).
+
 Resource: [float](https://developer.mozilla.org/en-US/docs/Web/CSS/float) -- a great reference at Mozilla Developer Network
 
