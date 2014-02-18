@@ -1,3 +1,8 @@
+/* stylesheet without box-sizing
+   appearance will vary in different browsers
+   http://www.paulirish.com/2012/box-sizing-border-box-ftw/ 
+   */
+
 body {
 	margin: 0;
 	padding: 0;
@@ -10,7 +15,20 @@ body {
 #wrapper {
 	margin: 20px auto;
 	width: 80%;
-	background: #999;
+	background: #ccc;
+	}
+
+h1 {
+	font-family: Cambria, Georgia, serif;
+	font-size: 200%;
+	padding: 20px 0;
+	}
+
+p {
+	margin-bottom: 20px;
+	padding: 0 20px;
+	line-height: 1.4em;
+	background: #fcf;
 	}
 
 /* links */
