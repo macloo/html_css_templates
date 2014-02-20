@@ -1,0 +1,72 @@
+/* stylesheet without box-sizing 
+   appearance will vary in different Web browsers 
+   
+   exercise: 
+   change margin and/or padding on p { } to observe results 
+   
+   learn about box-sizing: 
+   http://www.paulirish.com/2012/box-sizing-border-box-ftw/ 
+   
+   learn about the box model: 
+   http://css-tricks.com/the-css-box-model/ 
+   */
+
+body {
+	margin: 0;  /* affects only the body, not other selectors */
+	padding: 0; /* same */
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 100%;
+	color: #000;
+	background: #fff; /* white */
+	}
+
+/* do not modify #wrapper - modify only p - below */
+#wrapper {
+	margin: 20px auto;
+	padding: 0;
+	width: 80%;
+	background: #999; /* gray */
+	}
+
+/* --------------------------------------------------------------- */
+
+	/* play with margin and padding here; reload page to see results 
+	   the order: top right bottom left (TRouBLe) 
+	   same order in both margin and padding 
+	   when you see gray, you are seeing the #wrapper behind the p 
+	   */
+
+p {
+	margin: 0 100px 20px 50px;
+	padding: 0 20px 0 20px;
+	line-height: 1.4em;
+	background: #fcf; /* pink */
+	}
+
+/* --------------------------------------------------------------- */
+
+/* do not modify h1 - modify only p - above */
+h1 {
+	font-family: Cambria, Georgia, serif;
+	font-size: 200%;
+	font-weight: normal;
+	text-align: center;
+	margin: 0;        /* only 1 number: all sides, trbl */
+	padding: 20px 0;  /* only 2 numbers: top-bottom left-right */
+	background: #ccf; /* blue */
+	}
+
+/* links */
+
+a:focus {
+	outline: 2px solid #069;
+	}
+a:link, a: active, a:visited {
+	color: #00c;
+	text-decoration: underline;
+	}
+a:hover {
+	color: #00f;
+	text-decoration: none;
+	}
+
