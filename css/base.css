@@ -1,0 +1,63 @@
+/* max-width on wrapper to prevent sprawl on very wide monitors
+   min-width on wrapper to account for small vertical screens
+   universal selector used to normalize box-sizing for all browsers
+   http://www.paulirish.com/2012/box-sizing-border-box-ftw/ 
+   */
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	}
+
+body {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 100%;
+	color: #000;
+	background: #fff;
+	}
+
+#wrapper {
+	margin: 20px auto;
+	max-width: 600px;   /* responsive */
+	min-width: 240px;   /* responsive */
+	border: 1px solid #999;
+	padding-bottom:20px;
+	}
+
+/* heading and text styles */
+
+h1, h2 {
+	font-family: Cambria, Georgia, serif;
+	font-size: 200%;
+	font-weight: normal;
+	padding: 20px;
+	padding-right: 0;
+	line-height: 1.4em;
+	}
+
+h2 {
+	font-size: 150%;
+	}
+
+p {
+	margin-bottom: 20px;
+	padding: 0 20px;
+	line-height: 1.4em;
+	}
+
+/* links */
+
+a:focus {
+	outline: 2px solid #069;
+	}
+a:link, a: active, a:visited {
+	color: #00c;
+	text-decoration: underline;
+	}
+a:hover {
+	color: #00f;
+	text-decoration: none;
+	}
