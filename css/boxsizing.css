@@ -1,6 +1,7 @@
 /* shows the universal selector used to normalize box-sizing 
    for all browsers
    applies to all tags, all selectors, in the document
+   
    http://www.paulirish.com/2012/box-sizing-border-box-ftw/ 
    */
 
@@ -23,12 +24,14 @@ body {
 	margin: 20px auto;
 	width: 80%;
 	background: #ccc;
+	padding-bottom: 20px;
 	}
 
 h1 {
 	font-family: Cambria, Georgia, serif;
 	font-size: 200%;
 	font-weight: normal;
+	line-height: 1.5em;
 	padding: 20px 0;
 	}
 
