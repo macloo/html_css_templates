@@ -24,6 +24,7 @@ body {
 #wrapper {
 	margin: 20px auto;
 	padding: 0;
+	padding-bottom: 20px;
 	width: 80%;
 	background: #999; /* gray */
 	}
