@@ -33,3 +33,18 @@ Problems with floats also arise because of the box-sizing issue (see above): whe
 
 Resource: [float](https://developer.mozilla.org/en-US/docs/Web/CSS/float) -- a great reference at Mozilla Developer Network
 
+Resource: [CSS Floats 101](http://alistapart.com/article/css-floats-101)
+
+##inline-block
+
+A number of Web designers advocate replacing the float technique with the display: inline-block technique. Each method has issues, and each method requires that we use the box-sizing technique to make it work properly. Beginners must understand that they cannot use the two together; it's an either/or choice.
+
+Resource: [What’s the Deal With Display: Inline-Block?](http://designshack.net/articles/css/whats-the-deal-with-display-inline-block/)
+
+##viewport
+
+Use of the viewport meta tag is widely recommended as the way to make your pages look good on small screens, i.e. mobile. However, just slapping the tag on your page does not instantly fix everything.
+
+Resource: [Stop using the viewport meta tag (until you know how to use it)](http://blog.javierusobiaga.com/stop-using-the-viewport-tag-until-you-know-ho)
+
+
