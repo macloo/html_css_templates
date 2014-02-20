@@ -16,12 +16,14 @@ body {
 	margin: 20px auto;
 	width: 80%;
 	background: #ccc;
+	padding-bottom: 20px;
 	}
 
 h1 {
 	font-family: Cambria, Georgia, serif;
 	font-size: 200%;
 	font-weight: normal;
+	line-height: 1.5em;
 	padding: 20px 0;
 	}
 

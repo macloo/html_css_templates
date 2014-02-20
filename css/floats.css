@@ -1,4 +1,6 @@
-/* four main areas of the page */
+/* four main areas of the page 
+   each main area has a different background-color 
+ */
 
 #header {
 	background: #cfc;
@@ -16,7 +18,7 @@
 	float: left;
 	padding-top: 20px;
 	/* try un-commenting the line below - see what happens */
-	/* padding-bottom: 150px;  */
+	/* padding-bottom: 300px;  */
 	}
 
 .right {
@@ -52,6 +54,7 @@ dl {
 	}
 dd {
 	font-size: .9em;
+	line-height: 1.4em;
 	}
 dt {
 	font-size: .95em;

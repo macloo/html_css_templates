@@ -21,8 +21,8 @@ body {
 
 #wrapper {
 	margin: 20px auto;
-	width: 80%;
-	max-width: 1400px;   /* responsive */
+	max-width: 900px;
+	min-width: 300px;
 	background: #ccc;
 	}
 
@@ -41,17 +41,17 @@ body {
 .left {
 	background: #cff;
 	width: 60%;
-	min-width: 300px;   /* responsive */
 	float: left;
 	padding-top: 20px;
+	min-width: 300px;   /* responsive */
 	}
 
 .right {
 	background: #fcf;
 	width: 40%;
-	min-width: 300px;   /* responsive */
 	float: right;
 	padding-bottom: 30px;
+	min-width: 300px;   /* responsive */
 	}
 
 /* heading and text styles */
