@@ -22,7 +22,7 @@ body {
 #wrapper {
 	margin: 20px auto;
 	width: 80%;
-	max-width: 1400px;
+	max-width: 1400px;   /* responsive */
 	background: #ccc;
 	}
 
@@ -41,7 +41,7 @@ body {
 .left {
 	background: #cff;
 	width: 60%;
-	min-width: 300px;
+	min-width: 300px;   /* responsive */
 	float: left;
 	padding-top: 20px;
 	}
@@ -49,7 +49,7 @@ body {
 .right {
 	background: #fcf;
 	width: 40%;
-	min-width: 300px;
+	min-width: 300px;   /* responsive */
 	float: right;
 	padding-bottom: 30px;
 	}
