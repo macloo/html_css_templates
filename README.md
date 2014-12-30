@@ -47,6 +47,7 @@ A simple responsive page: <http://riotgirl.club/~macloo/> (files in riotgirl.clu
 
 Use of the viewport meta tag is widely recommended as the way to make your pages look good on small screens, i.e. mobile. However, just slapping the tag on your page does not instantly fix everything.
 
-Resource: [Stop using the viewport meta tag (until you know how to use it)](http://blog.javierusobiaga.com/stop-using-the-viewport-tag-until-you-know-ho)
+Resource 1: [Stop using the viewport meta tag (until you know how to use it)](http://blog.javierusobiaga.com/stop-using-the-viewport-tag-until-you-know-ho)
 
+Resource 2: [Use CSS media queries for responsiveness](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries)
 
