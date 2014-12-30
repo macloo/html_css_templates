@@ -43,6 +43,8 @@ Resource: [What’s the Deal With Display: Inline-Block?](http://designshack.net
 
 ##viewport
 
+A simple responsive page: <http://riotgirl.club/~macloo/> (files in riotgirl.club folder) 
+
 Use of the viewport meta tag is widely recommended as the way to make your pages look good on small screens, i.e. mobile. However, just slapping the tag on your page does not instantly fix everything.
 
 Resource: [Stop using the viewport meta tag (until you know how to use it)](http://blog.javierusobiaga.com/stop-using-the-viewport-tag-until-you-know-ho)
