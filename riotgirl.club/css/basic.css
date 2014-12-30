@@ -15,8 +15,9 @@ body {
 	}
 
 p {
-	margin-top: 12px;
+	margin-top: 16px;
 	}
+
 
 /* ---------- Divs --------- */
 
@@ -31,10 +32,7 @@ p {
 	}
 
 @media (max-width: 1000px) {
-	#container {
-		width: 90%;
-		margin: 30px auto;
-		}
+	#container { width: 90%; padding: 40px 20px; }
 	}
 
 /* --------- Links --------- */
@@ -52,5 +50,5 @@ a:hover {
 /* --------- Effects --------- */
 
 .highlight {
-	background: #63fffe; /* swimming pool blue */ 
+	background: #97fdfe; /* swimming pool blue */
 	}
