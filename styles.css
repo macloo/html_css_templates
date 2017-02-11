@@ -1,7 +1,7 @@
 body {
 	font-family: Verdana, Arial, sans-serif;
 	/* always set a base font and font-size */
-	font-size: 100%;
+	font-size: 12pt;
 	color: #000;
 	background: #fff;
 	}
@@ -9,7 +9,7 @@ body {
 #wrapper {
 	margin: 20px auto;
 	width: 80%;
-	background: #999;
+	background: #998;
 	}
 
 /* links */
@@ -18,7 +18,7 @@ a:focus {
 	outline: 2px solid #069;
 	}
 a:link, a: active, a:visited {
-	color: #00c;
+	color: #6a6af9;
 	text-decoration: underline;
 	}
 a:hover {
