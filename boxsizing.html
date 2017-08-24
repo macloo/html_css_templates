@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>CSS box-sizing example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> CSS box-sizing example </title>
+	<link rel="stylesheet" href="css/normalize.min.css">
 	<link rel="stylesheet" href="css/boxsizing.css">
 </head>
-<body>
-<div id="wrapper">
 
+<body>
 
 
 <h1>A box model test page with box-sizing</h1>
 
-<p>Ravana resolves to destroy Rama by capturing Sita with the aid of the rakshasa Maricha. Maricha, assuming the form of a golden deer, captivates Sita's attention. Entranced by the beauty of the deer, Sita pleads with Rama to capture it. Lord Rama chases the deer into the forest, leaving Sita under Lakshmana's guard. After some time Sita hears Rama calling out to her; afraid for his life, she insists that Lakshmana rush to his aid. Lakshmana tries to assure her that Rama is invincible, and that it is best if he continues to follow Rama's orders to protect her. On the verge of hysterics, Sita insists that it is not she but Rama who needs Lakshmana's help. He obeys her wish but stipulates that she is not to leave the cottage or entertain any strangers. He draws a chalk outline around the cottage and casts a spell on it that prevents anyone from entering the boundary but allows people to exit. Finally, with the coast clear, Ravana appears in the guise of an ascetic requesting Sita's hospitality. Unaware of the devious plan of her guest, Sita is tricked into leaving the chalk outline and is then forcibly carried away by the evil Ravana.</p>
-
-<p>Ravana carries Sita away to Lanka, where Sita is kept under the heavy guard of rakshasis. Ravana demands Sita marry him, but Sita, eternally devoted to Rama, refuses. Rama and Lakshmana learn about Sita's abduction from Jatayu, and immediately set out to save her. During their search, they meet the demon Kabandha and the ascetic Shabari, who direct them towards Sugriva, the monkey king, and Hanuman.</p>
-
-<p>Having received Hanuman's report on Sita, held prisoner in Lanka, Rama and Lakshmana proceed with their allies towards the shore of the southern sea. There they are joined by Ravana's renegade brother Vibhishana.The monkeys construct a giant floating bridge across the ocean, and the princes and their army cross over to Lanka. A lengthy battle ensues, in which Rama eventually kills Ravana. Rama then installs Vibhishana on the throne of Lanka.</p>
-
-<p>Text adapted from Wikipedia entry <a href="http://en.wikipedia.org/wiki/Ramayana">Ramayana</a>.</p>
-
-<p>See also: <a href="noboxsizing.html">without box-sizing</a></p>
-
-
-
+<div>
+	<p>Below are two DIV elements. They have exactly the same CSS styles, with one exception: The top one has <code>box-sizing: border-box</code>, and the bottom one does not.</p>
 </div>
+
+<div class="with-bs">
+	<p>Ravana carries Sita away to Lanka, where Sita is kept under the heavy guard of rakshasis. Ravana demands Sita marry him, but Sita, eternally devoted to Rama, refuses. Rama and Lakshmana learn about Sita's abduction from Jatayu, and immediately set out to save her. During their search, they meet the demon Kabandha and the ascetic Shabari, who direct them towards Sugriva, the monkey king, and Hanuman.</p>
+</div>
+
+<div class="without-bs">
+	<p>Having received Hanuman's report on Sita, held prisoner in Lanka, Rama and Lakshmana proceed with their allies towards the shore of the southern sea. There they are joined by Ravana's renegade brother Vibhishana. The monkeys construct a giant floating bridge across the ocean, and the princes and their army cross over to Lanka. A lengthy battle ensues, in which Rama eventually kills Ravana.</p>
+</div>
+
+<div>
+	<p>The top DIV element is constrained to the width specified for the DIV. The bottom DIV is wider, the border width and the padding width having been <em>added</em> to the specified width, which may be given in ems, pixels, or percent.</p>
+</div>
+
+<p class="centered">Text adapted from Wikipedia entry <a href="http://en.wikipedia.org/wiki/Ramayana">Ramayana</a>.</p>
+
+
 </body>
 </html>

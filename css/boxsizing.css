@@ -1,0 +1,85 @@
+body {
+  font-family: 'Calibri', 'Verdana', sans-serif;
+  color: #333;
+  background: #fff9ef;
+  padding-bottom: 2em;
+}
+
+#wrapper {
+  margin: 2em auto;
+  max-width: 700px;
+  /* responsive */
+  border: 2px solid #ede5c4;
+  padding: 2em;
+}
+
+
+/* heading and text styles */
+
+h1, h2 {
+  font-family: 'Cambria', 'Georgia', serif;
+  font-size: 3em;
+  font-weight: normal;
+  line-height: normal;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding-top: 0.8em;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+
+/* new styles for the box-sizing examples */
+
+div {
+  max-width: 500px;
+  margin: 2em auto;
+}
+
+.with-bs, .without-bs {
+  border: 2em solid #333;
+  padding: 1em 2em;
+  background: #daedbb;
+}
+
+.with-bs {
+  box-sizing: border-box;
+}
+
+.centered {
+  text-align: center;
+}
+
+
+/* links */
+
+a {
+  color: #237b93;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #d332cb;
+  text-decoration: none;
+}
+
+
+/* media queries */
+
+@media (max-width: 700px) {
+  div {
+    width: 90%;
+    margin: 1em auto;
+  }
+  h1 {
+    margin: 0.5em;
+  }
+}
