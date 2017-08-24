@@ -5,15 +5,6 @@ body {
   padding-bottom: 2em;
 }
 
-#wrapper {
-  margin: 2em auto;
-  max-width: 700px;
-  /* responsive */
-  border: 2px solid #ede5c4;
-  padding: 2em;
-}
-
-
 /* heading and text styles */
 
 h1, h2 {
