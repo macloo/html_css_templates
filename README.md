@@ -28,6 +28,8 @@ Resource 2: [CSS Floats 101](https://alistapart.com/article/css-floats-101)
 
 The CSS grid has revolutionized grid-style page layouts, making floats and inline-block styles unnecessary in many cases (but not all). Good planning is required before you can implement the grid effectively.
 
+[Browser support for CSS grid](http://caniuse.com/#feat=css-grid) is pretty good but not yet universal.
+
 Resource: [Basic concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
 
 ## inline-block
