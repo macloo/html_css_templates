@@ -1,6 +1,6 @@
 # HTML and CSS templates
 
-Extremely simple templates for starting a small project.
+Extremely simple templates for starting a small project. Please note the dates on these files. There might be better, newer methods if the files are old.
 
 Below is an overview of the terms. Open the similarly named HTML file and its CSS to see it in action.
 
