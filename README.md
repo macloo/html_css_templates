@@ -2,7 +2,7 @@
 
 Extremely simple templates for starting a small project.
 
-Here's an overview of the terms. Open the similarly named HTML file and its CSS to see it in action.
+Below is an overview of the terms. Open the similarly named HTML file and its CSS to see it in action.
 
 ## box-sizing
 
@@ -22,13 +22,13 @@ Resource: [CSS Floats 101](https://alistapart.com/article/css-floats-101)
 
 ## inline-block
 
-It's possible to replace the `float` technique with `display: inline-block`. Each method has issues, and each method requires that we use `box-sizing` to make it work properly. Beginners must understand that they cannot use the two together; it's an either/or choice.
+It's possible to replace the `float` techniques with `display: inline-block`. Each method has issues, and each method requires that we use `box-sizing` to make it work properly. Beginners must understand that they cannot use the two together; it's an either/or choice.
 
 Resource: [What’s the Deal With Display: Inline-Block?](https://designshack.net/articles/css/whats-the-deal-with-display-inline-block/)
 
 ## Normalizer.css
 
-This stylesheet is widely used throughout the web design community to smooth out all the differences among browsers. Load this first, then load your own CSS file.
+This stylesheet is widely used throughout the web design community to smooth out all the differences among browsers. Load this first, then load your own CSS file. All the HTML files here (except basic.html) use Normalizer.
 
 Resource: [Normalizer.css](https://necolas.github.io/normalize.css/)
 
