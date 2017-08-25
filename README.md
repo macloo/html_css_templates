@@ -14,9 +14,19 @@ Web pages by beginners often look horribly different in different Web browsers. 
 
 Resource: [box-sizing](https://tympanus.net/codrops/css_reference/box-sizing/)
 
+## flexbox
+
+Beginners can get very confused about the differences among `flex`, `float`, `grid`, and `inline-block` (all covered below). Think of `flex` as the modern solution to solving challenges with a set of small items (or boxes) on a page. However, for a full-page layout solution, look to `grid` instead.
+
+[Browser support for CSS flexbox](http://caniuse.com/#feat=flexbox) is very good.
+
+Resource 1: [Using CSS Flexible Boxes](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
+
+Resource 2: [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 ## floats
 
-In CSS, float declarations are commonly used to place elements (such as images, or sidebars) on a page. They pose challenges for beginners, in part because usually they must be "cleared" after use.
+In CSS, float declarations are commonly used to place elements (such as images, or sidebars) on a page. They pose challenges for beginners, in large part because usually they must be "cleared" after use.
 
 Problems with floats also arise because of the box-sizing issue (see above): when there is not enough space for a floated item, elements "fall down" below instead of floating side by side, as you intended. The error with insufficient space can be caused by the width of margins and padding — the sum of all the widths is greater than you calculated. This can also occur as part of inheritance (the "cascade" of Cascading Style Sheets).
 
@@ -26,7 +36,7 @@ Resource 2: [CSS Floats 101](https://alistapart.com/article/css-floats-101)
 
 ## grid
 
-The CSS grid has revolutionized grid-style page layouts, making floats and inline-block styles unnecessary in many cases (but not all). Good planning is required before you can implement the grid effectively.
+The CSS grid has revolutionized grid-style page layouts, making floats and inline-block styles unnecessary in many cases (but not all). Good planning is required before you can implement the grid effectively. See also `flexbox` above.
 
 [Browser support for CSS grid](http://caniuse.com/#feat=css-grid) is pretty good but not yet universal.
 

@@ -1,0 +1,85 @@
+/* universal selector used to normalize box-sizing for all browsers */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Calibri', 'Verdana', sans-serif;
+  color: #333;
+  background: #fff9ef;
+}
+
+#wrapper {
+  margin: 2em auto;
+  /* max-width on wrapper to prevent sprawl on very wide monitors */
+  max-width: 700px;
+  border: 2px solid #ede5c4;
+  padding: 2em;
+}
+
+
+/* heading and text styles */
+
+h1, h2 {
+  font-family: 'Cambria', 'Georgia', serif;
+  font-weight: normal;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding-top: 0.8em;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+
+/* links */
+
+a {
+  color: #237b93;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #d332cb;
+  text-decoration: none;
+}
+
+
+/* flexbox styles */
+
+.flexcontainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fbutton {
+  padding: 1em 1.5em;
+  background: #fcf;
+  border: 1px solid #999;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 8;
+}
+
+.smallish {
+  font-size: 0.8em;
+}
+
+/* media query for small screens */
+
+@media (max-width: 700px) {
+  #wrapper {
+    border: 0;
+    margin: 0;
+  }
+}
