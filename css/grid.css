@@ -9,45 +9,51 @@ body {
   background: #fff9ef;
 }
 
+/* grid container */
 #wrapper {
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-auto-rows: minmax(100px, auto);
 	max-width: 1000px;
 	margin: 2em auto;
 }
 
 /* four main areas of the page:
-		header
-		article
-		aside
-		footer
+		header - spans 2 columns
+		article - 1 column, left
+		aside - 1 column, right
+		footer - spans 2 columns
    each has a different background-color
    */
 
 header {
+	grid-column: span 2;
+	grid-row: 1;
   background: #cfc;
 	padding: 1em 0;
 	text-align: center;
 }
 
 footer {
+	grid-column: span 2;
+	grid-row: 3;
   background: #ffc;
   padding: 1em 2em;
 	border: 1px solid #999;
 	text-align: center;
-  /* clear your floats */
-  clear: both;
 }
 
 article {
+	grid-column: 1;
+	grid-row: 2;
   background: #cff;
-  width: 60%;
-  float: left;
   padding: 2em;
 }
 
 aside {
+	grid-column: 2;
+	grid-row: 2;
   background: #fcf;
-  width: 40%;
-  float: right;
   padding: 1em 2em;
 }
 
@@ -106,12 +112,13 @@ dt {
 /* media queries */
 
 @media (max-width: 700px) {
-  #wrapper {
+	#wrapper {
+		/* remove grid for small mobile screens */
+		display: block;
     width: 100%;
     margin: 0;
   }
 	article, aside {
 		width: 100%;
-		float: none;
 	}
 }
