@@ -1,69 +1,86 @@
-/* four main areas of the page 
-   using display: inline-block to create columns 
-   NOTE - there is a very important kludge that must be used in 
-   the HTML with the inline-block method. You'll see it at line 24 
-   in the file inline-block.html  
-   */
+* {
+  box-sizing: border-box;
+}
 
-#header {
-	background: #cfc;
-	}
+body {
+  font-family: 'Calibri', 'Verdana', sans-serif;
+  color: #333;
+  background: #fff9ef;
+}
 
-#footer {
-	background: #ffc;
-	padding: 20px 0;
-	}
+/* heading and text styles */
 
-.left {
-	background: #cff;
-	width: 60%;
-	display: inline-block;   /* inline-block */
-	vertical-align: top;     /* must go with inline-block */
-	padding-top: 20px;
-	/* try un-commenting the line below - see what happens */
-	/* padding-bottom: 300px;  */
-	}
-
-.right {
-	background: #fcf;
-	width: 40%;
-	display: inline-block;   /* inline-block */
-	vertical-align: top;     /* must go with inline-block */
-	padding-bottom: 30px;
-	}
-
-/* text styles unique to this page -
-   overriding previous stylesheet
-   */
+h1, h2 {
+  font-family: 'Cambria', 'Georgia', serif;
+  font-weight: normal;
+  line-height: normal;
+}
 
 h1 {
-	padding-left: 20px;
-	}
+  font-size: 3em;
+  text-align: center;
+}
 
 h2 {
-	font-family: Cambria, Georgia, serif;
-	font-size: 150%;
-	font-weight: normal;
-	padding: 20px 0 10px 20px;
-	}
+  font-size: 1.5em;
+  padding-top: 0.8em;
+}
 
 p {
-	background: transparent;
-	}
+  line-height: 1.4em;
+}
 
-/* definition list styles for sidebar */
+.centered {
+	text-align: center;
+}
 
-dl {
-	padding: 0 20px;
-	}
-dd {
-	font-size: .9em;
-	line-height: 1.4em;
-	}
-dt {
-	font-size: .95em;
-	font-weight: bold;
-	padding-top: 10px;
-	line-height: 1.5em;
-	}
+footer {
+	padding: 2em 0;
+}
 
+
+/* links */
+
+a {
+  color: #237b93;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #d332cb;
+  text-decoration: none;
+}
+
+
+/* style all the DIVs */
+
+div {
+	background: #fcf;
+	border: 1px solid #999;
+	width: 25%;
+	padding: 1em 2em;
+	margin-bottom: 1em;
+}
+
+.inliner {
+	display: inline-block;
+	/* must have with inline-block */
+	vertical-align: top;
+}
+
+.floater {
+	float: left;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+/* media query for small screens */
+
+@media (max-width: 700px) {
+  div {
+		width: 50%;
+  }
+}

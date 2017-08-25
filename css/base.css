@@ -1,6 +1,7 @@
 /* max-width on wrapper to prevent sprawl on very wide monitors
    universal selector used to normalize box-sizing for all browsers
    https://tympanus.net/codrops/css_reference/box-sizing/
+   one media query, at bottom 
    */
 
 * {
@@ -16,7 +17,6 @@ body {
 #wrapper {
   margin: 2em auto;
   max-width: 700px;
-  /* responsive */
   border: 2px solid #ede5c4;
   padding: 2em;
 }
@@ -26,12 +26,12 @@ body {
 
 h1, h2 {
   font-family: 'Cambria', 'Georgia', serif;
-  font-size: 3em;
   font-weight: normal;
   line-height: normal;
 }
 
 h1 {
+  font-size: 3em;
   text-align: center;
 }
 
@@ -58,10 +58,11 @@ a:hover {
 }
 
 
-/* media queries */
+/* media query for small screens */
 
 @media (max-width: 700px) {
   #wrapper {
     border: 0;
+    margin: 0;
   }
 }
