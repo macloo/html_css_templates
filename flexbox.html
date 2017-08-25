@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Basics of CSS flexbox </title>
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/flexbox.css">
+</head>
+
+<body>
+<div id="wrapper">
+
+<h1>Basics of CSS flexbox</h1>
+
+<p>Flexbox is ideally suited for a set of smaller elements &mdash; often DIVs &mdash; that have to fill or fit within a particular space on the page. Each element has  <code>display: flex</code> as part of its CSS. Note that the set of elements must be wrapped in a container that also has <code>display: flex</code>.</p>
+
+<div class="flexcontainer">
+
+	<div class="fbutton">
+		Rama
+	</div>
+
+	<div class="fbutton">
+		Sita
+	</div>
+
+	<div class="fbutton">
+		Hanuman
+	</div>
+
+	<div class="fbutton">
+		Lakshmana
+	</div>
+
+	<div class="fbutton">
+		Ravana
+	</div>
+
+<!-- close the flexcontainer -->
+</div>
+
+<p>Here's a variation, using a slightly smaller font-size.</p>
+
+<div class="flexcontainer">
+
+	<div class="fbutton smallish">
+		Rama
+	</div>
+
+	<div class="fbutton smallish">
+		Sita
+	</div>
+
+	<div class="fbutton smallish">
+		Hanuman
+	</div>
+
+	<div class="fbutton smallish">
+		Lakshmana
+	</div>
+
+	<div class="fbutton smallish">
+		Ravana
+	</div>
+
+<!-- close the flexcontainer -->
+</div>
+
+<p>And another variation, adding a sixth element into the set.</p>
+
+<div class="flexcontainer">
+
+	<div class="fbutton">
+		Rama
+	</div>
+
+	<div class="fbutton">
+		Sita
+	</div>
+
+	<div class="fbutton">
+		Hanuman
+	</div>
+
+	<div class="fbutton">
+		Sugriva
+	</div>
+
+	<div class="fbutton">
+		Lakshmana
+	</div>
+
+	<div class="fbutton">
+		Ravana
+	</div>
+
+<!-- close the flexcontainer -->
+</div>
+
+
+<p>Note that to lay out an entire page, you would be advised to use <a href="grid.html">CSS grid</a> instead of flexbox.</p>
+
+</div>
+</body>
+</html>
