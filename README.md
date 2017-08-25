@@ -1,6 +1,6 @@
 # HTML and CSS templates
 
-Extremely simple templates for starting a small project. Please note the dates on these files. There might be better, newer methods if the files are old.
+Extremely simple templates for starting a small project.
 
 Below is an overview of the terms. Open the similarly named HTML file and its CSS to see it in action.
 
@@ -26,17 +26,17 @@ It's possible to replace the `float` techniques with `display: inline-block`. Ea
 
 Resource: [What’s the Deal With Display: Inline-Block?](https://designshack.net/articles/css/whats-the-deal-with-display-inline-block/)
 
-## Normalizer.css
+## Normalize.css
 
-This stylesheet is widely used throughout the web design community to smooth out all the differences among browsers. Load this first, then load your own CSS file. All the HTML files here (except basic.html) use Normalizer.
+This stylesheet is widely used throughout the web design community to smooth out all the differences among browsers. Load this first, then load your own CSS file. All the HTML files here (except basic.html) use Normalize.
 
-Resource: [Normalizer.css](https://necolas.github.io/normalize.css/)
+Resource: [Normalize.css](https://necolas.github.io/normalize.css/)
 
 ## universal selector
 
 The web design community expresses various opinions about use of the universal selector (\*) in CSS. It should not be overused.
 
-Resource: [Universal Selector ‘*’ Reset](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
+Resource: [Universal selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors) (MDN)
 
 ## viewport / responsive pages
 
