@@ -20,6 +20,7 @@ body {
 		aside
 		footer
    each has a different background-color
+   these could be DIVs instead, if you prefer DIVs
    */
 
 header {
@@ -33,7 +34,7 @@ footer {
   padding: 1em 2em;
 	border: 1px solid #999;
 	text-align: center;
-  /* clear your floats */
+  /* clear your floats - to prevent weird layout issues */
   clear: both;
 }
 
@@ -91,12 +92,12 @@ dl {
 }
 
 dd {
-  font-size: .9em;
+  font-size: 0.9em;
   line-height: 1.4em;
 }
 
 dt {
-  font-size: .95em;
+  font-size: 0.95em;
   font-weight: bold;
   padding-top: 1em;
   line-height: 1.5em;

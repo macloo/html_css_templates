@@ -1,3 +1,5 @@
+/* universal selector used to normalize box-sizing for all browsers */
+
 * {
   box-sizing: border-box;
 }
@@ -7,6 +9,7 @@ body {
   color: #333;
   background: #fff9ef;
 }
+
 
 /* heading and text styles */
 
@@ -31,7 +34,7 @@ p {
 }
 
 .centered {
-	text-align: center;
+  text-align: center;
 }
 
 .explan {
@@ -39,7 +42,7 @@ p {
 }
 
 footer {
-	padding: 2em 0;
+  padding: 2em 0;
 }
 
 
@@ -59,25 +62,25 @@ a:hover {
 /* style all the DIVs */
 
 div {
-	background: #fcf;
-	border: 1px solid #999;
-	width: 25%;
-	padding: 1em 2em;
-	margin-bottom: 1em;
+  background: #fcf;
+  border: 1px solid #999;
+  width: 25%;
+  padding: 1em 2em;
+  margin-bottom: 1em;
 }
 
 .inliner {
-	display: inline-block;
-	/* must have with inline-block */
-	vertical-align: top;
+  display: inline-block;
+  /* must have with inline-block */
+  vertical-align: top;
 }
 
 .floater {
-	float: left;
+  float: left;
 }
 
 .clearfix {
-	clear: both;
+  clear: both;
 }
 
 
@@ -85,6 +88,6 @@ div {
 
 @media (max-width: 700px) {
   div {
-		width: 50%;
+    width: 50%;
   }
 }

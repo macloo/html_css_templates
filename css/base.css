@@ -1,9 +1,4 @@
-/* max-width on wrapper to prevent sprawl on very wide monitors
-   universal selector used to normalize box-sizing for all browsers
-   https://tympanus.net/codrops/css_reference/box-sizing/
-   one media query, at bottom 
-   */
-
+/* universal selector used to normalize box-sizing for all browsers */
 * {
   box-sizing: border-box;
 }
@@ -16,6 +11,7 @@ body {
 
 #wrapper {
   margin: 2em auto;
+  /* max-width on wrapper to prevent sprawl on very wide monitors */
   max-width: 700px;
   border: 2px solid #ede5c4;
   padding: 2em;

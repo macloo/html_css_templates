@@ -9,12 +9,12 @@ body {
 
 h1, h2 {
   font-family: 'Cambria', 'Georgia', serif;
-  font-size: 3em;
   font-weight: normal;
   line-height: normal;
 }
 
 h1 {
+  font-size: 3em;
   text-align: center;
 }
 
@@ -41,6 +41,7 @@ div {
   background: #daedbb;
 }
 
+/* normalize box-sizing for all browsers: fixes width issues */
 .with-bs {
   box-sizing: border-box;
 }
