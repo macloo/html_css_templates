@@ -4,6 +4,10 @@ Extremely simple templates for starting a small project.
 
 Below is an overview of the terms. Open the similarly named HTML file and its CSS to see it in action.
 
+## basic
+
+A plain vanilla HTML page with no CSS.
+
 ## box-sizing
 
 Web pages by beginners often look horribly different in different Web browsers. Often this can be traced back to the ways in which `margin` and `padding` are specified in the CSS. Some web browsers interpret some aspects of `margin` and `padding` differently from other browsers.
@@ -16,9 +20,15 @@ In CSS, float declarations are commonly used to place elements (such as images, 
 
 Problems with floats also arise because of the box-sizing issue (see above): when there is not enough space for a floated item, elements "fall down" below instead of floating side by side, as you intended. The error with insufficient space can be caused by the width of margins and padding — the sum of all the widths is greater than you calculated. This can also occur as part of inheritance (the "cascade" of Cascading Style Sheets).
 
-Resource: [float](https://developer.mozilla.org/en-US/docs/Web/CSS/float) (a great reference at Mozilla Developer Network)
+Resource 1: [float](https://developer.mozilla.org/en-US/docs/Web/CSS/float) (a great reference at Mozilla Developer Network)
 
-Resource: [CSS Floats 101](https://alistapart.com/article/css-floats-101)
+Resource 2: [CSS Floats 101](https://alistapart.com/article/css-floats-101)
+
+## grid
+
+The CSS grid has revolutionized grid-style page layouts, making floats and inline-block styles unnecessary in many cases (but not all). Good planning is required before you can implement the grid effectively.
+
+Resource: [Basic concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
 
 ## inline-block
 
