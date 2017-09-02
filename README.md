@@ -24,6 +24,8 @@ Resource 1: [Using CSS Flexible Boxes](https://developer.mozilla.org/en-US/docs/
 
 Resource 2: [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
+Resource 3 (video): [Flexbox Tutorial: Real Layout Examples](https://www.youtube.com/watch?v=k32voqQhODc)
+
 ## floats
 
 In CSS, float declarations are commonly used to place elements (such as images, or sidebars) on a page. They pose challenges for beginners, in large part because usually they must be "cleared" after use.
@@ -40,7 +42,11 @@ The CSS grid has revolutionized grid-style page layouts, making floats and inlin
 
 [Browser support for CSS grid](http://caniuse.com/#feat=css-grid) is pretty good but not yet universal.
 
-Resource: [Basic concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
+Resource 1: [Basic concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
+
+Resource 2 (video): [CSS Grid Changes EVERYTHING](https://www.youtube.com/watch?v=7kVeCqQCxlk)
+
+Resource 3: [Building Production-Ready CSS Grid Layouts Today](https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/) &mdash; by the guy in the video 
 
 ## inline-block
 
