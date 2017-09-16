@@ -46,6 +46,8 @@ Resource 1: [float](https://developer.mozilla.org/en-US/docs/Web/CSS/float) (a g
 
 Resource 2: [CSS Floats 101](https://alistapart.com/article/css-floats-101)
 
+Video: [Clearing floats](https://www.youtube.com/watch?v=cEgwqCWuJXs&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB&index=30)
+
 Video: [Comparing floats with positioning (demo)](https://www.youtube.com/watch?v=LaQZj1pXxG4&index=28&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB) Relative, absolute, and fixed position are discussed after floats.
 
 ## grid
