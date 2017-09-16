@@ -8,11 +8,17 @@ Below is an overview of the terms. Open the similarly named HTML file and its CS
 
 A plain vanilla HTML page with no CSS.
 
+[Example page](http://macloo.github.io/html_css_templates/basic.html)
+
+File: basic.html
+
 ## box-sizing
 
 Web pages by beginners often look horribly different in different Web browsers. Often this can be traced back to the ways in which `margin` and `padding` are specified in the CSS. Some web browsers interpret some aspects of `margin` and `padding` differently from other browsers.
 
 Resource: [box-sizing](https://tympanus.net/codrops/css_reference/box-sizing/)
+
+[Example page](http://macloo.github.io/html_css_templates/boxsizing.html)
 
 ## flexbox
 
@@ -26,6 +32,8 @@ Resource 2: [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-
 
 Resource 3 (video): [Flexbox Tutorial: Real Layout Examples](https://www.youtube.com/watch?v=k32voqQhODc)
 
+[Example page](http://macloo.github.io/html_css_templates/flexbox.html)
+
 ## floats
 
 In CSS, float declarations are commonly used to place elements (such as images, or sidebars) on a page. They pose challenges for beginners, in large part because usually they must be "cleared" after use.
@@ -36,7 +44,7 @@ Resource 1: [float](https://developer.mozilla.org/en-US/docs/Web/CSS/float) (a g
 
 Resource 2: [CSS Floats 101](https://alistapart.com/article/css-floats-101)
 
-Video: [Comparing floats with positioning (demo)](https://www.youtube.com/watch?v=LaQZj1pXxG4&index=28&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB) Relative, absolute, and fixed position are discussed after floats. 
+Video: [Comparing floats with positioning (demo)](https://www.youtube.com/watch?v=LaQZj1pXxG4&index=28&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB) Relative, absolute, and fixed position are discussed after floats.
 
 ## grid
 
