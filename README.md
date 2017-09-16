@@ -64,6 +64,8 @@ It's possible to replace the `float` techniques with `display: inline-block`. Ea
 
 Resource: [What’s the Deal With Display: Inline-Block?](https://designshack.net/articles/css/whats-the-deal-with-display-inline-block/)
 
+[Example](http://macloo.github.io/html_css_templates/inline-block.html) Compares inline-block and floats.
+
 ## Normalize.css
 
 This stylesheet is widely used throughout the web design community to smooth out all the differences among browsers. Load this first, then load your own CSS file. All the HTML files here (except basic.html) use Normalize.
