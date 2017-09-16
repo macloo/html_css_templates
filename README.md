@@ -18,6 +18,8 @@ Web pages by beginners often look horribly different in different Web browsers. 
 
 Resource: [box-sizing](https://tympanus.net/codrops/css_reference/box-sizing/)
 
+Video: [How box-sizing fixes a width problem (demo)](https://www.youtube.com/watch?v=9saJfaXfux8&t=2s&index=26&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB) Margin, padding, and how to center elements with `margin: auto` are discussed.
+
 [Example page](http://macloo.github.io/html_css_templates/boxsizing.html)
 
 ## flexbox
