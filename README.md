@@ -36,6 +36,8 @@ Resource 1: [float](https://developer.mozilla.org/en-US/docs/Web/CSS/float) (a g
 
 Resource 2: [CSS Floats 101](https://alistapart.com/article/css-floats-101)
 
+Video: [Comparing floats with positioning (demo)](https://www.youtube.com/watch?v=LaQZj1pXxG4&index=28&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB) Relative, absolute, and fixed position are discussed after floats. 
+
 ## grid
 
 The CSS grid has revolutionized grid-style page layouts, making floats and inline-block styles unnecessary in many cases (but not all). Good planning is required before you can implement the grid effectively. See also `flexbox` above.
@@ -46,7 +48,7 @@ Resource 1: [Basic concepts of grid layout](https://developer.mozilla.org/en-US/
 
 Resource 2 (video): [CSS Grid Changes EVERYTHING](https://www.youtube.com/watch?v=7kVeCqQCxlk)
 
-Resource 3: [Building Production-Ready CSS Grid Layouts Today](https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/) &mdash; by the guy in the video 
+Resource 3: [Building Production-Ready CSS Grid Layouts Today](https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/) &mdash; by the guy in the video
 
 ## inline-block
 
