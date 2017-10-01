@@ -7,6 +7,8 @@ body {
   font-family: 'Calibri', 'Verdana', sans-serif;
   color: #333;
   background: #fff9ef;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
 }
 
 #wrapper {
@@ -37,7 +39,7 @@ h2 {
 }
 
 p {
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 
 
