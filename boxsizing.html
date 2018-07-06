@@ -14,7 +14,7 @@
 <h1>A box model test page with box-sizing</h1>
 
 <div>
-	<p>Below are two DIV elements. They have exactly the same CSS styles, with one exception: The top one has <code>box-sizing: border-box</code>, and the bottom one does not.</p>
+	<p>Below are two bordered DIV elements. They have exactly the same CSS styles, with <em>one exception</em>: The top one has <code>box-sizing: border-box</code>, and the bottom one does not.</p>
 </div>
 
 <div class="with-bs">
@@ -26,13 +26,15 @@
 </div>
 
 <div>
-	<p>The top DIV element is constrained to the width specified for all DIVs on this page. The bottom DIV is wider, the border width and the padding width having been <em>added</em> to the specified width, which may be given in ems, pixels, or percent.</p>
+	<p>The top bordered DIV element is constrained to the width specified for all DIVs on this page &mdash; including the DIV that encloses this paragraph. The bottom bordered DIV is wider because the border width and the padding width have been <em>added</em> to the DIV's specified width (which may be given in rems, ems, pixels, or percent).</p>
 
 	<p>Read more about <a href="https://tympanus.net/codrops/css_reference/box-sizing/">box-sizing</a> and the box model.</p>
 </div>
 
-<p class="centered">Text adapted from Wikipedia entry <a href="http://en.wikipedia.org/wiki/Ramayana">Ramayana</a>.</p>
-
+<footer class="centered">
+<p><a href="index.html">index</a> | <a href="https://github.com/macloo/html_css_templates">GitHub</a><br>
+	Text adapted from Wikipedia entry <a href="http://en.wikipedia.org/wiki/Ramayana">Ramayana</a>.</p>
+</footer>
 
 </body>
 </html>

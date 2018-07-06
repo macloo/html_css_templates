@@ -1,6 +1,7 @@
 html {
     font-size: 100%;
 }
+
 body {
   font-family: 'Calibri', 'Verdana', sans-serif;
   color: #333;
@@ -57,6 +58,12 @@ div {
   background: #fcd7a4;
   padding: 2rem 0 3rem 0;
   margin: 0;
+}
+
+code {
+    font-family: monospace;
+    font-size: 1.3rem;
+    background: #fcd7a4;
 }
 
 
