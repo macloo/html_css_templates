@@ -1,7 +1,11 @@
-/* fix all width problems with box-sizing */
+/* universal selector used to normalize box-sizing for all browsers */
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
 
 * {
-  box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 body {
@@ -18,7 +22,7 @@ body {
   grid-template-columns: 60% 40%;
   grid-auto-rows: minmax(100px, auto);
   max-width: 1000px;
-  margin: 2em auto;
+  margin: 2rem auto;
 }
 
 
@@ -28,23 +32,22 @@ body {
 		aside - 1 column, right
 		footer - spans 2 columns
    each has a different background-color
-   -- these could be DIVs instead -- 
+   -- these could be DIVs instead --
    */
 
 header {
   grid-column: span 2;
   grid-row: 1;
   background: #cfc;
-  padding: 1em 0;
+  padding: 1rem 0;
   text-align: center;
 }
 
 footer {
   grid-column: span 2;
   grid-row: 3;
-  background: #ffc;
-  padding: 1em 2em;
-  border: 1px solid #999;
+  background: #f7ea76;
+  padding: 1rem 2rem;
   text-align: center;
 }
 
@@ -52,14 +55,14 @@ article {
   grid-column: 1;
   grid-row: 2;
   background: #cff;
-  padding: 2em;
+  padding: 1rem 2rem;
 }
 
 aside {
   grid-column: 2;
   grid-row: 2;
   background: #fcf;
-  padding: 1em 2em;
+  padding: 1rem 2rem;
 }
 
 
@@ -67,18 +70,18 @@ aside {
 
 h1, h2 {
   font-family: 'Cambria', 'Georgia', serif;
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: normal;
   line-height: normal;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   padding-top: 0;
 }
 
 p {
-  line-height: 1.4em;
+  line-height: 1.4rem;
 }
 
 
@@ -102,21 +105,27 @@ dl {
 }
 
 dd {
-  font-size: .9em;
-  line-height: 1.4em;
+  font-size: .9rem;
+  line-height: 1.4rem;
 }
 
 dt {
-  font-size: .95em;
+  font-size: .95rem;
   font-weight: bold;
-  padding-top: 1em;
-  line-height: 1.5em;
+  padding-top: 1rem;
+  line-height: 1.5rem;
 }
 
 
 /* media queries */
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
+    #wrapper {
+        margin: 0;
+    }
+}
+
+@media (max-width: 760px) {
   #wrapper {
     /* remove grid for small mobile screens */
     display: block;
