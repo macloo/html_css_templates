@@ -1,7 +1,10 @@
 /* universal selector used to normalize box-sizing for all browsers */
-
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
 * {
-  box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 body {
@@ -20,31 +23,39 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
 }
 
 h2 {
-  font-size: 1.5em;
-  padding-top: 0.8em;
+  font-size: 1.5rem;
 }
 
 p {
-  line-height: 1.4em;
+  line-height: 1.4rem;
 }
 
 .centered {
   text-align: center;
+  background: #fcd7a4;
+  padding: 2rem 0 3rem 0;
+  margin: 0;
 }
 
 .explan {
-  padding: 0 2em;
+  padding: 0 2rem;
+  max-width: 50rem;
 }
 
 footer {
-  padding: 2em 0;
+  padding: 2rem 0;
 }
 
+code {
+    font-family: monospace;
+    font-size: 1.3rem;
+    background: #fcd7a4;
+}
 
 /* links */
 
@@ -65,8 +76,8 @@ div {
   background: #fcf;
   border: 1px solid #999;
   width: 25%;
-  padding: 1em 2em;
-  margin-bottom: 1em;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
 }
 
 .inliner {
@@ -86,8 +97,9 @@ div {
 
 /* media query for small screens */
 
-@media (max-width: 700px) {
+@media (max-width: 760px) {
   div {
-    width: 50%;
+    width: 33%;
+    padding: .7rem 1rem;
   }
 }
