@@ -16,7 +16,9 @@ File: basic.html
 
 Web pages by beginners often look horribly different in different Web browsers. Often this can be traced back to the ways in which `margin` and `padding` are specified in the CSS. Some web browsers interpret some aspects of `margin` and `padding` differently from other browsers.
 
-Resource: [box-sizing](https://tympanus.net/codrops/css_reference/box-sizing/)
+Resource 1: [box-sizing](https://tympanus.net/codrops/css_reference/box-sizing/)
+
+Resource 2: [Inheriting box-sizing Probably Slightly Better Best-Practice](https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/) &mdash; this is what I do now (except the `::before` and `::after` parts), but it might be overkill for beginners
 
 Video: [How box-sizing fixes a width problem (demo)](https://www.youtube.com/watch?v=9saJfaXfux8&index=26&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB) Margin, padding, and how to center elements with `margin: auto` are discussed.
 
@@ -82,7 +84,7 @@ Resource: [Normalize.css](https://necolas.github.io/normalize.css/)
 
 ## universal selector
 
-The web design community expresses various opinions about use of the universal selector (\*) in CSS. It should not be overused.
+The web design community expresses various opinions about use of the universal selector (\*) in CSS. It should not be overused. I use it for `box-sizing` in most of my CSS stylesheets.
 
 Resource: [Universal selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors) (MDN)
 
