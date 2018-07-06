@@ -4,6 +4,8 @@ Extremely simple templates for starting a small project.
 
 Below is an overview of the terms. Open the similarly named HTML file and its CSS to see it in action.
 
+Videos (2018): [Intro to Web Apps](https://www.youtube.com/channel/UCxbfCtXxHRLvN5cfnehpFLg/videos)
+
 ## basic
 
 A plain vanilla HTML page with no CSS.
