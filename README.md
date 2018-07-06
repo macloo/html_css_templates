@@ -26,7 +26,7 @@ Video: [How box-sizing fixes a width problem (demo)](https://www.youtube.com/wat
 
 Beginners can get very confused about the differences among `flex`, `float`, `grid`, and `inline-block` (all covered below). Think of `flex` as the modern solution to solving challenges with a set of small items (or boxes) on a page. However, for a full-page layout solution, look to `grid` instead.
 
-[Browser support for CSS flexbox](http://caniuse.com/#feat=flexbox) is very good.
+[Browser support for CSS flexbox](https://caniuse.com/#search=flex) is very good.
 
 Resource 1: [Using CSS Flexible Boxes](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
 
@@ -54,13 +54,17 @@ Video: [Comparing floats with positioning (demo)](https://www.youtube.com/watch?
 
 The CSS grid has revolutionized grid-style page layouts, making floats and inline-block styles unnecessary in many cases (but not all). Good planning is required before you can implement the grid effectively. See also `flexbox` above.
 
-[Browser support for CSS grid](http://caniuse.com/#feat=css-grid) is pretty good but not yet universal.
+[Browser support for CSS grid](https://caniuse.com/#search=grid) is pretty good but not yet universal.
 
 Resource 1: [Basic concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
 
 Resource 2 (video): [CSS Grid Changes EVERYTHING](https://www.youtube.com/watch?v=7kVeCqQCxlk)
 
 Resource 3: [Building Production-Ready CSS Grid Layouts Today](https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/) &mdash; by the guy in the video
+
+Resource 4: [Layout Land](https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag) &mdash; great videos by Jen Simmons, Mozilla Designer and Developer Advocate
+
+Resource 5: [Grid by Example](https://www.youtube.com/watch?v=Dz9BzY21Zks&list=PLQkVA6z3dFvbnBJetfYDAF3-cG_ubgdZR) &mdash; super-short videos that each show how to do just one thing, by Rachel Andrew (check out her [website](https://gridbyexample.com/) too)
 
 ## inline-block
 
