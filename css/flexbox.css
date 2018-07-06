@@ -78,8 +78,7 @@ a:hover {
   background: #fcf;
   border: 1px solid #999;
   text-align: center;
-  flex: 1 1 1;
-  align-self: start;
+  align-self: flex-start;
 }
 
 .smallish {
