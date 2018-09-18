@@ -34,3 +34,13 @@ div {
     height: 110px;
     border: 1px solid #999;
 }
+
+/* links */
+a {
+    color: #237b93;
+    text-decoration: underline;
+}
+a:hover {
+    color: #d332cb;
+    text-decoration: none;
+}
