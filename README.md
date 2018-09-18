@@ -14,6 +14,12 @@ A plain vanilla HTML page with no CSS.
 
 File: basic.html
 
+## simple
+
+This page has a CSS file attached. [View page.](http://macloo.github.io/html_css_templates/simple2.html)
+
+File: simple2.html
+
 ## box-sizing
 
 Web pages by beginners often look horribly different in different Web browsers. Often this can be traced back to the ways in which `margin` and `padding` are specified in the CSS. Some web browsers interpret some aspects of `margin` and `padding` differently from other browsers.
