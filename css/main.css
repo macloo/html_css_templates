@@ -1,0 +1,36 @@
+/* universal selector used to normalize box-sizing for all browsers */
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+    background: #fff9ef;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 700px;
+}
+div {
+    display: inline-block;
+    width: 150px;
+}
+.red {
+    background: #c90404;
+    height: 90px;
+}
+.green {
+    background: #33ce62;
+    height: 70px;
+}
+.blue {
+    background: #4bb4c6;
+    height: 150px;
+}
+.no-color {
+    height: 110px;
+    border: 1px solid #999;
+}
