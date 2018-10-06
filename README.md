@@ -76,7 +76,7 @@ Resource 4: [Layout Land](https://www.youtube.com/channel/UC7TizprGknbDalbHplROt
 
 Resource 5: [Grid by Example](https://www.youtube.com/watch?v=Dz9BzY21Zks&list=PLQkVA6z3dFvbnBJetfYDAF3-cG_ubgdZR) &mdash; super-short videos that each show how to do just one thing, by Rachel Andrew (check out her [website](https://gridbyexample.com/) too)
 
-Resource 6: [CSS Grid](https://cssgrid.io/) 25 easy to follow videos by Wes Bos that come with starter files to follow along
+Resource 6: [CSS Grid](https://cssgrid.io/) &mdash; 25 easy to follow videos by Wes Bos that come with starter files to follow along
 
 ## inline-block
 
