@@ -6,7 +6,7 @@ Below is an overview of the terms. Open the similarly named HTML file and its CS
 
 Videos (2018): [Intro to Web Apps](https://www.youtube.com/channel/UCxbfCtXxHRLvN5cfnehpFLg/videos)
 
-## basic
+## Basic
 
 A plain vanilla HTML page with no CSS.
 
@@ -14,13 +14,13 @@ A plain vanilla HTML page with no CSS.
 
 File: basic.html
 
-## simple
+## Simple
 
 This page has a CSS file attached. [View page.](http://macloo.github.io/html_css_templates/simple2.html)
 
 File: simple2.html
 
-## box-sizing
+## Box-Sizing
 
 Web pages by beginners often look horribly different in different Web browsers. Often this can be traced back to the ways in which `margin` and `padding` are specified in the CSS. Some web browsers interpret some aspects of `margin` and `padding` differently from other browsers.
 
@@ -32,7 +32,7 @@ Video: [How box-sizing fixes a width problem (demo)](https://www.youtube.com/wat
 
 [Example page](http://macloo.github.io/html_css_templates/boxsizing.html)
 
-## flexbox
+## Flexbox
 
 Beginners can get very confused about the differences among `flex`, `float`, `grid`, and `inline-block` (all covered below). Think of `flex` as the modern solution to solving challenges with a set of small items (or boxes) on a page. However, for a full-page layout solution, look to `grid` instead.
 
@@ -46,7 +46,7 @@ Resource 3 (video): [Flexbox Tutorial: Real Layout Examples](https://www.youtube
 
 [Example page](http://macloo.github.io/html_css_templates/flexbox.html)
 
-## floats
+## Floats
 
 In CSS, float declarations are commonly used to place elements (such as images, or sidebars) on a page. They pose challenges for beginners, in large part because usually they must be "cleared" after use.
 
@@ -60,7 +60,7 @@ Video: [Clearing floats](https://www.youtube.com/watch?v=cEgwqCWuJXs&list=PLZFU-
 
 Video: [Comparing floats with positioning (demo)](https://www.youtube.com/watch?v=LaQZj1pXxG4&index=28&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB) Relative, absolute, and fixed position are discussed after floats.
 
-## grid
+## Grid
 
 The CSS grid has revolutionized grid-style page layouts, making floats and inline-block styles unnecessary in many cases (but not all). Good planning is required before you can implement the grid effectively. See also `flexbox` above.
 
@@ -76,7 +76,7 @@ Resource 4: [Layout Land](https://www.youtube.com/channel/UC7TizprGknbDalbHplROt
 
 Resource 5: [Grid by Example](https://www.youtube.com/watch?v=Dz9BzY21Zks&list=PLQkVA6z3dFvbnBJetfYDAF3-cG_ubgdZR) &mdash; super-short videos that each show how to do just one thing, by Rachel Andrew (check out her [website](https://gridbyexample.com/) too)
 
-## inline-block
+## Inline-Block
 
 It's possible to replace the `float` techniques with `display: inline-block`. Each method has issues, and each method requires that we use `box-sizing` to make it work properly. Beginners must understand that they cannot use the two together; it's an either/or choice.
 
@@ -90,13 +90,13 @@ This stylesheet is widely used throughout the web design community to smooth out
 
 Resource: [Normalize.css](https://necolas.github.io/normalize.css/)
 
-## universal selector
+## Universal Selector
 
 The web design community expresses various opinions about use of the universal selector (\*) in CSS. It should not be overused. I use it for `box-sizing` in most of my CSS stylesheets.
 
 Resource: [Universal selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors) (MDN)
 
-## viewport / responsive pages
+## Viewport / Responsive Pages
 
 All the pages here use the <em>viewport meta tag</em> in the HTML `head` element. It helps to make your pages look good on small screens, i.e. mobile. However, just slapping the tag on your page does not instantly fix everything.
 
