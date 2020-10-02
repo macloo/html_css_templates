@@ -109,7 +109,3 @@ Resource 2: [Use CSS media queries for responsiveness](https://developers.google
 When creating simple html sites very often you have to create two or more column layouts. In this file you can see how to create two column layouts with the help of html and css.
 
 Resource 1: [How to create columns in HTML](https://www.educative.io/edpresso/how-to-create-columns-in-html)
-
-The web design community expresses various opinions about use of the universal selector (\*) in CSS. It should not be overused. I use it for `box-sizing` in most of my CSS stylesheets.
-
-Resource: [Universal selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors) (MDN)
